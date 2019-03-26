@@ -53,6 +53,16 @@
     imurmurhash "^0.1.4"
     slide "^1.1.5"
 
+"@commitlint/test@^7.5.0":
+  version "7.5.0"
+  resolved "https://registry.npmjs.org/@commitlint/test/-/test-7.5.0.tgz#2c68ba0b49096978cf6e82fa2f6208a7f3f9bbc9"
+  integrity sha512-LIFXGS2h7VGpNNouJ2ymmqPyF3KjAfIBqJfb6VBEGLAnMgiQeX7Qx3BYMFkZlDFrxSY2GpNKqB3LCITYYMsbDA==
+  dependencies:
+    "@commitlint/utils" "^7.5.0"
+    "@marionebl/sander" "0.6.1"
+    execa "0.9.0"
+    pkg-dir "2.0.0"
+
 "@concordance/react@^1.0.0":
   version "1.0.0"
   resolved "https://registry.npmjs.org/@concordance/react/-/react-1.0.0.tgz#fcf3cad020e5121bfd1c61d05bc3516aac25f734"
@@ -7847,13 +7857,18 @@ semver-diff@^2.0.0:
   version "5.4.1"
   resolved "https://registry.npmjs.org/semver/-/semver-5.4.1.tgz#e059c09d8571f0540823733433505d3a2f00b18e"
 
-semver@5.6.0, semver@^5.5.1, semver@^5.6.0:
-  version "5.6.0"
-  resolved "https://registry.npmjs.org/semver/-/semver-5.6.0.tgz#7e74256fbaa49c75aa7c7a205cc22799cac80004"
+semver@6.0.0:
+  version "6.0.0"
+  resolved "https://registry.npmjs.org/semver/-/semver-6.0.0.tgz#05e359ee571e5ad7ed641a6eec1e547ba52dea65"
+  integrity sha512-0UewU+9rFapKFnlbirLi3byoOuhrSsli/z/ihNnvM24vgF+8sNBiI1LZPBSH9wJKUwaUbw+s3hToDLCXkrghrQ==
 
 semver@^5.5.0:
   version "5.5.0"
   resolved "https://registry.npmjs.org/semver/-/semver-5.5.0.tgz#dc4bbc7a6ca9d916dee5d43516f0092b58f7b8ab"
+
+semver@^5.5.1, semver@^5.6.0:
+  version "5.6.0"
+  resolved "https://registry.npmjs.org/semver/-/semver-5.6.0.tgz#7e74256fbaa49c75aa7c7a205cc22799cac80004"
 
 semver@~5.3.0:
   version "5.3.0"
